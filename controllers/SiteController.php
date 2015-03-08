@@ -714,5 +714,9 @@ else
         return $this->render('about');
     }
     
+    public function actionTemplate1()
+    {
+        return $this->render('template1');
+    }
      
 }
